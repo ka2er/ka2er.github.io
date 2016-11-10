@@ -1,4 +1,5 @@
 name: ka2er, Wospe
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-
+sass:
+    style: compressed
