@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 	<html>
 		<head>
+			<meta charset='utf-8'>
+
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen">	
+			<link rel="stylesheet" type="text/css" href="/stylesheets/github-dark.css" media="screen">
+			<link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print">
+
 		</head>
 		<body>
+			<header>
+				<div class="container">
+					<h1>Ka2er.GitHub.io</h1>
+					<section id="downloads">
+						<a href="https://github.com/ka2er" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+					</section>
+				</div>
+			</header>
+			
 			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
@@ -14,9 +28,11 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			
+				 <section id="main_content">
+
 			{{ content }}
 			
+				</section>
 			</div>
 			<footer>
 	    		<ul>
